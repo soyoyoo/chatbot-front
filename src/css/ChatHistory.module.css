@@ -1,0 +1,45 @@
+.historyContainer {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .messageRow {
+    display: flex;
+    width: 100%;
+  }
+  
+  .userRow {
+    justify-content: flex-start;
+  }
+  
+  .botRow {
+    justify-content: flex-end;
+  }
+  
+  .bubble {
+    max-width: 60%;
+    padding: 14px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+  .userBubble {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border-radius: 18px 18px 18px 4px;
+  }
+  
+  .botBubble {
+    background-color: #4f46e5;
+    color: #ffffff;
+    border-radius: 18px 18px 4px 18px;
+  }
